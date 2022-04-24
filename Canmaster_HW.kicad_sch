@@ -300,6 +300,9 @@
     (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/3d4bf2e9-fbaa-44c5-a919-2ca459393bc3"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
+    (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/508f9da5-f222-435c-ba2d-86ca078ca3ff"
+      (reference "#PWR0102") (unit 1) (value "GND") (footprint "")
+    )
     (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/6fae802d-1d9f-40e1-9d95-a193a9444aee"
       (reference "C1") (unit 1) (value "10u,16v") (footprint "C_Capacitor:C_0805")
     )
