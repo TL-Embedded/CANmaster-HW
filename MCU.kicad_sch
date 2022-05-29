@@ -2180,7 +2180,7 @@
     (property "Reference" "R3" (id 0) (at 241.681 111.1247 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "300R" (id 1) (at 241.681 113.8998 0)
+    (property "Value" "220R" (id 1) (at 241.681 113.8998 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "R_Resistor:R_0603" (id 2) (at 237.49 113.03 90)

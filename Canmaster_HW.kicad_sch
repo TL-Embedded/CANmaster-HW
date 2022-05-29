@@ -373,7 +373,7 @@
       (reference "R2") (unit 1) (value "300R") (footprint "R_Resistor:R_0603")
     )
     (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/ead7ff6c-6db4-484e-b1ea-4e465b5e08b4"
-      (reference "R3") (unit 1) (value "300R") (footprint "R_Resistor:R_0603")
+      (reference "R3") (unit 1) (value "220R") (footprint "R_Resistor:R_0603")
     )
     (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/5f02240d-bc31-4694-be0c-12e9183f984a"
       (reference "R4") (unit 1) (value "0R") (footprint "R_Resistor:R_0603")
