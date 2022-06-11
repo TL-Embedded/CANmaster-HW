@@ -1,0 +1,27 @@
+Drill report for Canmaster_HW.kicad_pcb
+Created on 11/06/2022 11:44:07 pm
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'Canmaster_HW-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (85 holes)
+    T2  0.950mm  0.0374"  (4 holes)
+    T3  1.400mm  0.0551"  (3 holes)
+    T4  2.300mm  0.0906"  (2 holes)
+
+    Total plated holes count 94
+
+
+Drill file 'Canmaster_HW-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  0.991mm  0.0390"  (3 holes)
+    T2  3.200mm  0.1260"  (4 holes)
+
+    Total unplated holes count 7
