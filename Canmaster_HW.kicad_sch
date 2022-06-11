@@ -32,17 +32,21 @@
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 258ce863-cfb7-4c2d-80fe-4ac07ede67de)
   )
-  (wire (pts (xy 134.62 72.39) (xy 146.05 72.39))
-    (stroke (width 0) (type default) (color 0 0 0 0))
-    (uuid 570d8b67-005c-49a6-ae93-d1a0922e923d)
-  )
   (wire (pts (xy 95.25 63.5) (xy 105.41 63.5))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 5c795d0c-a287-4343-9801-5c84f324ca6b)
   )
+  (wire (pts (xy 134.62 72.39) (xy 146.05 72.39))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 644cd39b-941d-47b0-9f5f-bc0c0b8fb8d6)
+  )
   (wire (pts (xy 134.62 63.5) (xy 146.05 63.5))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 78722818-d97f-45a2-b277-7991da45ef22)
+  )
+  (wire (pts (xy 134.62 74.93) (xy 146.05 74.93))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 8fc03d75-5709-4e8b-b1f9-76733f9c68d2)
   )
   (wire (pts (xy 134.62 60.96) (xy 146.05 60.96))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -121,14 +125,14 @@
     )
   )
 
-  (sheet (at 105.41 54.61) (size 29.21 24.13) (fields_autoplaced)
+  (sheet (at 105.41 54.61) (size 29.21 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 190 255 175 1.0000))
     (uuid 01b2762a-8576-4e4e-ab62-0edd5e876365)
     (property "Sheet name" "MCU" (id 0) (at 105.41 53.8984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 105.41 79.3246 0)
+    (property "Sheet file" "MCU.kicad_sch" (id 1) (at 105.41 80.5946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "USB_DM" bidirectional (at 105.41 63.5 180)
@@ -143,7 +147,7 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 2176642f-e6f3-4184-894e-9c82180f521c)
     )
-    (pin "CAN_TERM_EN" output (at 134.62 72.39 0)
+    (pin "CAN_TERM_EN" output (at 134.62 74.93 0)
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid d6f24f24-61b0-4e0d-bb5c-830a958f76bf)
     )
@@ -155,16 +159,20 @@
       (effects (font (size 1.27 1.27)) (justify right))
       (uuid 112305d7-c6c3-459e-9b9d-47ab27d133f3)
     )
+    (pin "CAN_SENSE" input (at 134.62 72.39 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid 82203fd5-9f32-4738-803b-098ac343e787)
+    )
   )
 
-  (sheet (at 146.05 54.61) (size 26.67 24.13) (fields_autoplaced)
+  (sheet (at 146.05 54.61) (size 26.67 25.4) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 190 255 175 1.0000))
     (uuid 52e03e0f-0169-4ddc-a0ca-d3b73fdda860)
     (property "Sheet name" "CAN" (id 0) (at 146.05 53.8984 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "CAN.kicad_sch" (id 1) (at 146.05 79.3246 0)
+    (property "Sheet file" "CAN.kicad_sch" (id 1) (at 146.05 80.5946 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (pin "CAN_MODE" input (at 146.05 69.85 180)
@@ -179,9 +187,13 @@
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 76a6c80c-8cd1-440a-8580-c2c9c4ce7abf)
     )
-    (pin "CAN_TERM_EN" input (at 146.05 72.39 180)
+    (pin "CAN_TERM_EN" input (at 146.05 74.93 180)
       (effects (font (size 1.27 1.27)) (justify left))
       (uuid 4a98b2b5-eba3-45c0-ae7e-4798701177cb)
+    )
+    (pin "CAN_SENSE" output (at 146.05 72.39 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 9c56fa55-e4d5-42ec-9f52-312711196c7e)
     )
   )
 
@@ -297,6 +309,9 @@
     (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/8adb752b-7647-40f0-a1c3-61f3791456cd"
       (reference "#PWR028") (unit 1) (value "GND") (footprint "")
     )
+    (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/cde0f489-f47b-4ea1-ae42-91b105335d22"
+      (reference "#PWR029") (unit 1) (value "GND") (footprint "")
+    )
     (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/3d4bf2e9-fbaa-44c5-a919-2ca459393bc3"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -351,7 +366,7 @@
     (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/95eec6ce-06ef-4eb6-a636-48e8e0f38454"
       (reference "J2") (unit 1) (value "TC_2030_NL_STLINK") (footprint "N_NonPart:TagConnect_2030_NL")
     )
-    (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/280cbbe2-a1a4-4e26-9cfd-2f52d25a5b4c"
+    (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/ca815669-7de9-4dbd-9580-e40033f02e04"
       (reference "J3") (unit 1) (value "Conn_01x03") (footprint "Connector_Phoenix_MSTB:PhoenixContact_MSTBA_2,5_3-G-5,08_1x03_P5.08mm_Horizontal")
     )
     (path "/87c49666-7bac-4d74-b9f9-ae2e6518027e"
@@ -387,11 +402,17 @@
     (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/61f43836-d204-4802-80e7-c0f1081ca036"
       (reference "R7") (unit 1) (value "120R") (footprint "R_Resistor:R_0603")
     )
+    (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/dc42ea1c-c97f-4a7a-9912-1ce399d8f47b"
+      (reference "R8") (unit 1) (value "10K") (footprint "R_Resistor:R_0603")
+    )
+    (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/e0826cf5-7bc8-46f9-9a4a-faa239d9a3be"
+      (reference "R9") (unit 1) (value "0R") (footprint "R_Resistor:R_0603")
+    )
     (path "/93c82c21-a9a8-4f05-827c-7629e693e47e/999c953d-f873-4181-b275-4a1811787930"
       (reference "U1") (unit 1) (value "USBLC6-4SC6") (footprint "U_IC:SOT23_6")
     )
-    (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/fb416e1c-65b0-4239-b2dc-147ef26ad1d8"
-      (reference "U2") (unit 1) (value "AP2139AK-3.3TRG1") (footprint "U_IC:SOT23_5")
+    (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/47903ef2-65fe-4a97-acb1-9f54a2c16b69"
+      (reference "U2") (unit 1) (value "NCP115ASN330T2G") (footprint "U_IC:SOT23_5")
     )
     (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/8e5e7638-c80b-4d8f-8383-f9fb7b1afade"
       (reference "U3") (unit 1) (value "STM32F072CxUx") (footprint "U_IC:QFN48_05_7x7_EP")
