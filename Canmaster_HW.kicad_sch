@@ -352,13 +352,13 @@
       (reference "D1") (unit 1) (value "D5V0L2B3SO-7") (footprint "U_IC:SOT23_3")
     )
     (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/586c50c9-a731-49c7-9678-629c10449416"
-      (reference "DS1") (unit 1) (value "LED,YEL") (footprint "DS_LED:DS_0603")
+      (reference "DS1") (unit 1) (value "LED,RED") (footprint "DS_LED:DS_0603")
     )
     (path "/01b2762a-8576-4e4e-ab62-0edd5e876365/e19ac94f-c01f-4656-862a-b4ec9d26083d"
       (reference "DS2") (unit 1) (value "LED,GRN") (footprint "DS_LED:DS_0603")
     )
     (path "/52e03e0f-0169-4ddc-a0ca-d3b73fdda860/fab3d4f2-01e5-46bf-87f6-7cdb759a2371"
-      (reference "DS3") (unit 1) (value "LED,RED") (footprint "DS_LED:DS_0603")
+      (reference "DS3") (unit 1) (value "LED,YEL") (footprint "DS_LED:DS_0603")
     )
     (path "/93c82c21-a9a8-4f05-827c-7629e693e47e/9e7703a6-bbcc-42f7-8fb6-c8dd52b7145f"
       (reference "J1") (unit 1) (value "UJ2-BH-TH") (footprint "J_Connector:USB_B_TH_Horizontal")

@@ -815,7 +815,7 @@
       (effects (font (size 0.75 0.75) (thickness 0.12)))
       (tstamp c3ec28d0-7d6a-45c7-8929-905948ef9c11)
     )
-    (fp_text value "LED,YEL" (at 0 1.6) (layer "F.Fab") hide
+    (fp_text value "LED,RED" (at 0 1.6) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 84062cb7-1fa9-4726-ab10-7af55c35f7bf)
     )
@@ -1285,7 +1285,7 @@
       (effects (font (size 0.75 0.75) (thickness 0.12)))
       (tstamp b00f55cd-2fd0-4be3-95f5-ff701f60c355)
     )
-    (fp_text value "LED,RED" (at 0 1.6) (layer "F.Fab") hide
+    (fp_text value "LED,YEL" (at 0 1.6) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp ba823e13-91c7-47a9-b198-7b27ae88618f)
     )

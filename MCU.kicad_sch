@@ -1635,7 +1635,7 @@
     (property "Reference" "DS1" (id 0) (at 224.536 120.9672 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED,YEL" (id 1) (at 224.536 123.7423 90)
+    (property "Value" "LED,RED" (id 1) (at 224.536 123.7423 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "DS_LED:DS_0603" (id 2) (at 227.33 121.92 0)

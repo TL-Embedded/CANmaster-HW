@@ -1352,7 +1352,7 @@
     (property "Reference" "DS3" (id 0) (at 103.886 67.6272 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED,RED" (id 1) (at 103.886 70.4023 90)
+    (property "Value" "LED,YEL" (id 1) (at 103.886 70.4023 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "DS_LED:DS_0603" (id 2) (at 106.68 68.58 0)
